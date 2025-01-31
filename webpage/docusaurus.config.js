@@ -20,7 +20,7 @@ const config = {
   organizationName: 'CagriCatik', // Your GitHub username.
   projectName: 'CPP', // Your repository name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -83,19 +83,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-            ],
-          },
-
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cagri Catik. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,

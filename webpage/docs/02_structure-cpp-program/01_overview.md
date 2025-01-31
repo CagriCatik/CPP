@@ -1,4 +1,3 @@
-
 # Keywords, Identifiers, Punctuation, Operators, and Syntax in C++
 
 ## Keywords

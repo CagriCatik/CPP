@@ -1,4 +1,3 @@
-
 # C++ Preprocessor and Preprocessor Directives
 
 ## Introduction to the C++ Preprocessor

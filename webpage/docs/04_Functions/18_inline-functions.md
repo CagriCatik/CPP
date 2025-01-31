@@ -1,0 +1,1 @@
+# 18 Inline-Functions

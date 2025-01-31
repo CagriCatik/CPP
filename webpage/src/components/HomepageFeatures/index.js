@@ -4,43 +4,155 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Getting Started',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn the basic structure of a C++ program, including how to write, compile, and run your first program.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Variables and Constants',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Understand how to define variables and constants in C++, along with their data types and initialization.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Arrays and Vectors',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore how to work with arrays and vectors, including dynamic memory allocation and manipulation.
+      </>
+    ),
+  },
+  {
+    title: 'Statements and Operators',
+    description: (
+      <>
+        Master the use of operators and control statements to build logical and arithmetic expressions.
+      </>
+    ),
+  },
+  {
+    title: 'Controlling Program Flow',
+    description: (
+      <>
+        Learn how to control the execution flow using loops, conditionals, and branching mechanisms.
+      </>
+    ),
+  },
+  {
+    title: 'Characters and Strings',
+    description: (
+      <>
+        Understand how to manipulate characters and strings efficiently in C++.
+      </>
+    ),
+  },
+  {
+    title: 'Functions',
+    description: (
+      <>
+        Dive into functions, parameters, and return types, along with best practices for modular code.
+      </>
+    ),
+  },
+  {
+    title: 'Pointers & References',
+    description: (
+      <>
+        Get a deep understanding of pointers and references, essential for memory management and data manipulation.
+      </>
+    ),
+  },
+  {
+    title: 'OOP: Classes & Objects',
+    description: (
+      <>
+        Discover the fundamentals of object-oriented programming, including classes, objects, and encapsulation.
+      </>
+    ),
+  },
+  {
+    title: 'Operator Overloading',
+    description: (
+      <>
+        Learn how to overload operators to define custom behaviors for your objects.
+      </>
+    ),
+  },
+  {
+    title: 'Inheritance',
+    description: (
+      <>
+        Explore how inheritance enables code reuse and extends functionality in C++.
+      </>
+    ),
+  },
+  {
+    title: 'Polymorphism',
+    description: (
+      <>
+        Understand polymorphism and its significance in designing flexible and scalable programs.
+      </>
+    ),
+  },
+  {
+    title: 'Smart Pointers',
+    description: (
+      <>
+        Learn how to use smart pointers to manage memory and avoid leaks in modern C++.
+      </>
+    ),
+  },
+  {
+    title: 'Exception Handling',
+    description: (
+      <>
+        Discover how to handle exceptions and errors gracefully in your programs.
+      </>
+    ),
+  },
+  {
+    title: 'I/O and Streams',
+    description: (
+      <>
+        Understand input/output operations, including file handling and stream manipulation.
+      </>
+    ),
+  },
+  {
+    title: 'Standard Template Library',
+    description: (
+      <>
+        Explore the STL's powerful data structures and algorithms to write efficient and concise code.
+      </>
+    ),
+  },
+  {
+    title: 'Lambda Expressions',
+    description: (
+      <>
+        Learn how to use lambda expressions for inline, anonymous functions in C++.
+      </>
+    ),
+  },
+
+  {
+    title: 'Projects',
+    description: (
+      <>
+        Projects in C++.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
